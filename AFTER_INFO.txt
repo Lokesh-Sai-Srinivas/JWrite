@@ -1,0 +1,30 @@
+Installation Complete!
+
+JWrite has been successfully installed on your system.
+
+What's Next:
+1. Launch JWrite from the Start Menu or Desktop shortcut
+2. Open a Java project folder (File → Open Directory)
+3. Start coding with the powerful VS Code-like interface
+4. Use F5 to run your Java code
+5. Customize themes and settings as needed
+
+File Associations:
+• .java files are now associated with JWrite
+• Double-click any .java file to open it in JWrite
+
+Keyboard Shortcuts:
+• Ctrl+N: New File
+• Ctrl+O: Open Directory
+• Ctrl+S: Save
+• F5: Run Code
+• Ctrl+Tab: Next Tab
+• F1: Show all shortcuts
+
+Support & Updates:
+• Check for updates regularly
+• Report issues on our GitHub repository
+• Contribute to the project
+
+Thank you for choosing JWrite!
+Happy coding! 🚀 

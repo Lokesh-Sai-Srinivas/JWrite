@@ -1,0 +1,27 @@
+Welcome to JWrite - Java Code Editor!
+
+JWrite is a powerful, VS Code-like Java development environment built with JavaFX.
+
+Features:
+• Professional dark theme interface
+• Advanced Java syntax highlighting
+• Smart auto-completion and indentation
+• File management and project explorer
+• Code execution and compilation
+• Multi-tab editing
+• Keyboard shortcuts for productivity
+
+System Requirements:
+• Windows 10/11 (64-bit)
+• 4GB RAM minimum
+• 500MB free disk space
+• Internet connection for JRE download
+
+This installer will:
+1. Install JWrite to Program Files
+2. Download and bundle Java Runtime Environment (JRE 17)
+3. Create desktop and start menu shortcuts
+4. Associate .java files with JWrite
+5. Set up proper uninstallation
+
+The installation requires administrator privileges to install system-wide. 

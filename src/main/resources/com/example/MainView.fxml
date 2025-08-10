@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="rootPane" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.MainController">
+    <top>
+        <MenuBar>
+            <Menu text="File">
+                <MenuItem text="New File" onAction="#handleNewFile" accelerator="Ctrl+N" />
+                <MenuItem text="Open Directory" onAction="#handleOpenDirectory" accelerator="Ctrl+O" />
+                <SeparatorMenuItem />
+                <MenuItem text="Save" onAction="#handleSaveFile" accelerator="Ctrl+S" />
+                <MenuItem text="Save As..." onAction="#handleSaveFileAs" accelerator="Ctrl+Shift+S" />
+                <SeparatorMenuItem />
+                <MenuItem text="Close Tab" onAction="#handleCloseTab" accelerator="Ctrl+W" />
+                <SeparatorMenuItem />
+                <MenuItem text="Exit" onAction="#handleExit" />
+            </Menu>
+            <Menu text="Edit">
+                <MenuItem text="Find" onAction="#handleFind" accelerator="Ctrl+F" />
+                <MenuItem text="Replace" onAction="#handleReplace" accelerator="Ctrl+H" />
+                <SeparatorMenuItem />
+                <MenuItem text="Next Tab" onAction="#handleNextTab" accelerator="Ctrl+Tab" />
+                <MenuItem text="Previous Tab" onAction="#handlePreviousTab" accelerator="Ctrl+Shift+Tab" />
+                <SeparatorMenuItem />
+                <MenuItem text="Format Document" onAction="#handleFormatDocument" accelerator="Ctrl+Shift+F" />
+            </Menu>
+            <Menu text="Run">
+                <MenuItem text="Run Java Code" onAction="#handleRunCode" accelerator="F5" />
+            </Menu>
+            <Menu text="View">
+                <MenuItem text="Refresh File Tree" onAction="#handleRefreshFileTree" accelerator="Shift+F5" />
+                <SeparatorMenuItem />
+                <MenuItem text="Show Shortcuts" onAction="#handleShowShortcuts" accelerator="F1" />
+                <MenuItem text="Go to File" onAction="#handleGoToFile" accelerator="F12" />
+            </Menu>
+        </MenuBar>
+    </top>
+    
+    <left>
+        <TreeView fx:id="fileTreeView" BorderPane.alignment="CENTER" prefWidth="280" />
+    </left>
+    
+    <center>
+        <TabPane fx:id="editorTabPane" tabClosingPolicy="ALL_TABS" />
+    </center>
+    
+    <bottom>
+        <VBox spacing="5">
+            <SplitPane dividerPositions="0.8" orientation="VERTICAL">
+                <TextArea fx:id="outputConsole" editable="false" style="-fx-font-family: 'Consolas', monospace;" prefHeight="150" />
+            </SplitPane>
+            <Label fx:id="statusLabel" text="Ready" style="-fx-padding: 6px 12px; -fx-background-color: #007ACC; -fx-text-fill: white; -fx-font-weight: bold;" />
+        </VBox>
+    </bottom>
+</BorderPane>

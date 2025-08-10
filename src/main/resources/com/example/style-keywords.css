@@ -1,0 +1,183 @@
+/* Enhanced Syntax Highlighting - VS Code Style */
+
+/* Keywords */
+.keyword {
+    -fx-fill: #569CD6;
+    -fx-font-weight: bold;
+}
+
+/* Parentheses */
+.paren {
+    -fx-fill: #D4D4D4;
+}
+
+/* Braces */
+.brace {
+    -fx-fill: #D4D4D4;
+}
+
+/* Brackets */
+.bracket {
+    -fx-fill: #D4D4D4;
+}
+
+/* Semicolons */
+.semicolon {
+    -fx-fill: #D4D4D4;
+}
+
+/* Strings */
+.string {
+    -fx-fill: #CE9178;
+}
+
+/* Comments */
+.comment {
+    -fx-fill: #6A9955;
+    -fx-font-style: italic;
+}
+
+/* Numbers */
+.number {
+    -fx-fill: #B5CEA8;
+}
+
+/* Types */
+.type {
+    -fx-fill: #4EC9B0;
+    -fx-font-weight: bold;
+}
+
+/* Functions */
+.function {
+    -fx-fill: #DCDCAA;
+}
+
+/* Variables */
+.variable {
+    -fx-fill: #9CDCFE;
+}
+
+/* Constants */
+.constant {
+    -fx-fill: #4FC1FF;
+}
+
+/* Operators */
+.operator {
+    -fx-fill: #D4D4D4;
+}
+
+/* Annotations */
+.annotation {
+    -fx-fill: #C586C0;
+}
+
+/* Line numbers */
+.lineno-rect {
+    -fx-fill: #1E1E1E;
+    -fx-stroke: #0078D7;
+}
+
+.lineno-text {
+    -fx-fill: #858585;
+    -fx-font-family: 'Consolas', monospace;
+    -fx-font-size: 13px;
+}
+
+/* Code area */
+.code-area {
+    -fx-font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    -fx-font-size: 14px;
+    -fx-background-color: #1E1E1E;
+    -fx-text-fill: #D4D4D4;
+    -fx-padding: 10px;
+}
+
+/* Scroll pane */
+.scroll-pane {
+    -fx-background-color: #1E1E1E;
+}
+
+/* Menu bar */
+.menu-bar {
+    -fx-background-color: #333333;
+    -fx-text-fill: #F0F0F0;
+}
+
+.menu:hover, .menu:showing {
+    -fx-background-color: #2D2D30;
+}
+
+.menu-item {
+    -fx-background-color: #3E3E42;
+}
+
+.menu-item:hover {
+    -fx-background-color: #007ACC;
+}
+
+/* Tab pane */
+.tab-pane {
+    -fx-background-color: #252526;
+}
+
+.tab {
+    -fx-background-color: #2D2D2D;
+    -fx-text-fill: #D4D4D4;
+}
+
+.tab:selected {
+    -fx-background-color: #1E1E1E;
+    -fx-border-color: #007ACC;
+    -fx-border-width: 0 0 2 0;
+}
+
+/* Text area */
+.text-area {
+    -fx-background-color: #1E1E1E;
+    -fx-text-fill: #D4D4D4;
+    -fx-font-family: 'Consolas', monospace;
+    -fx-font-size: 14px;
+}
+
+.text-area .content {
+    -fx-background-color: #1E1E1E;
+}
+
+/* Status bar */
+.status-bar {
+    -fx-background-color: #007ACC;
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 5px;
+}
+
+/* Light theme overrides */
+.root:light {
+    .lineno-rect {
+        -fx-fill: #FFFFFF;
+        -fx-stroke: #E1E1E1;
+    }
+    
+    .lineno-text {
+        -fx-fill: #999999;
+    }
+    
+    .code-area {
+        -fx-background-color: #FFFFFF;
+        -fx-text-fill: #333333;
+    }
+    
+    .scroll-pane {
+        -fx-background-color: #FFFFFF;
+    }
+    
+    .text-area {
+        -fx-background-color: #FFFFFF;
+        -fx-text-fill: #333333;
+    }
+    
+    .text-area .content {
+        -fx-background-color: #FFFFFF;
+    }
+}

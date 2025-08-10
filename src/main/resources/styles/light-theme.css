@@ -1,0 +1,15 @@
+.root {
+    -fx-base: #F5F5F5;
+    -fx-background: #FFFFFF;
+    -fx-control-inner-background: #FFFFFF;
+    -fx-text-background-color: #212121;
+}
+.menu-bar,.tool-bar { -fx-background-color: #EEEEEE; }
+.status-bar { -fx-background-color: #EEEEEE; -fx-border-width: 1 0 0 0; -fx-border-color: #BDBDBD; }
+.tree-view { -fx-background-color: #FAFAFA; }
+.console { -fx-font-family: 'Consolas', 'Monospaced'; -fx-text-fill: #333333; -fx-background-color: #FDFDFD; }
+.button { -fx-background-color: #E0E0E0; -fx-text-fill: black; }
+.button:hover { -fx-background-color: #D6D6D6; }
+.tab-header-background { -fx-background-color: #EEEEEE; }
+.tab { -fx-background-color: #F5F5F5; }
+.tab:selected { -fx-background-color: #FFFFFF; }

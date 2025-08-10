@@ -1,0 +1,16 @@
+.root {
+    -fx-base: #263238;
+    -fx-background: #37474F;
+    -fx-control-inner-background: #2b353b;
+    -fx-text-background-color: #B0BEC5;
+}
+.menu-bar,.tool-bar { -fx-background-color: #212a2f; }
+.status-bar { -fx-background-color: #212a2f; -fx-border-width: 1 0 0 0; -fx-border-color: #1f282d; }
+.tree-view { -fx-background-color: #37474F; }
+.tree-cell { -fx-text-fill: #B0BEC5; }
+.tab-header-background { -fx-background-color: #212a2f; }
+.tab { -fx-background-color: #37474F; }
+.tab:selected { -fx-background-color: #455A64; }
+.console { -fx-font-family: 'Consolas', 'Monospaced'; -fx-text-fill: #E0E0E0; -fx-background-color: #212a2f; }
+.button { -fx-background-color: #455A64; -fx-text-fill: white; }
+.button:hover { -fx-background-color: #546E7A; }
