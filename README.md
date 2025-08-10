@@ -1,37 +1,46 @@
 # JWrite - Java Code Editor
 
-A powerful VS Code-like Java editor with advanced syntax highlighting, file management, and code execution capabilities.
+A lightweight Java editor with VS Code-like features, including syntax highlighting and basic file management.
 
 ## Features
 
-- **VS Code-like Interface**: Professional dark and light themes
-- **Advanced Syntax Highlighting**: Real-time Java syntax highlighting with multiple element types
-- **Smart Auto-completion**: Automatic brace, quote, and parenthesis generation
-- **Intelligent Indentation**: Smart auto-indentation with proper spacing
-- **File Management**: Create, delete, rename, and organize files and folders
-- **Code Execution**: Compile and run Java files directly
-- **Multi-tab Editing**: Edit multiple files simultaneously
-- **Keyboard Shortcuts**: Full VS Code-like keyboard shortcuts
+### Implemented Features
+- **Basic Interface**: Dark and light theme support
+- **Syntax Highlighting**: Basic Java syntax highlighting
+- **File Management**: Basic file operations (open, save, close)
+- **Multi-tab Editing**: Support for editing multiple files
+- **Basic UI**: Clean interface with file tree and editor
+
+### Planned Features
+- **Advanced Syntax Highlighting**: More comprehensive Java syntax support
+- **Smart Auto-completion**: Automatic brace and quote generation
+- **Code Execution**: Compile and run Java files
+- **Keyboard Shortcuts**: More VS Code-like shortcuts
+- **File Operations**: Advanced features like rename and delete
 - **Context Menus**: Right-click file operations
-- **Professional UI**: Clean, modern interface with proper theming
 
 ## Prerequisites
 
 - Java 17 or higher
 - Maven 3.6 or higher
+- (Optional) Git for version control
 
 ## Quick Start
 
-### Option 1: Using the provided scripts
+### Option 1: Using the provided scripts (Windows)
 ```bash
-# Windows Batch (recommended)
+# Using batch file (recommended)
 start.bat
 
-# PowerShell
+# Or using PowerShell
 .\run.ps1
+```
 
-# Alternative batch file
-run.bat
+### Option 2: Clone and run
+```bash
+git clone https://github.com/Lokesh-Sai-Srinivas/JWrite.git
+cd JWrite
+start.bat
 ```
 
 ### Option 2: Using Maven directly
